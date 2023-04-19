@@ -4,10 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="hex-color">
+            <h1>
+                Click the button bellow to display the hex color code of a random color
+            </h1>
+            <h2>
+                The hex code of the color is #<span id="hex-code">00000
+            </h2>
+            <button onclick="changeColor()" class="btn btn-primary">Click me</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
